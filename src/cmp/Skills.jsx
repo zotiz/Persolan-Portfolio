@@ -1,5 +1,12 @@
-
-
+import React from "react"
+import REACTLOGO from '../images/react.png'
+import REDUX from '../images/redux.png'
+import JSLOGO from '../images/js.png'
+import TAILWIND from '../images/tailwind.png'
+import BOOTSTRAP from '../images/bootstrap.png'
+import CSSLOGO from '../images/css.png'
+import HTML from '../images/html.png'
+import GIT from '../images/git.png'
 const Skills = () => {
   return(
     <div name='skills' className="w-full py-20 bg-[#172233] text-white">
@@ -14,8 +21,8 @@ const Skills = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3  gap-16 my-10">
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
              
-              <img src="react.png
-            " alt="react" className="w-full" />
+              <img src={REACTLOGO}
+             alt="react" className="w-full" />
               
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>React.js</p>
@@ -25,8 +32,7 @@ const Skills = () => {
             
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px] ">
              
-              <img src="react.png
-            " alt="react" className="w-full max-auto" />
+              <img src={REACTLOGO} alt="react" className="w-full max-auto" />
              
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>React Native</p>
@@ -35,8 +41,8 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
              
-              <img src="redux.png
-            " alt="redux" className="" />
+              <img src={REDUX}
+             alt="redux" className="" />
             
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>Redux</p>
@@ -45,8 +51,7 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
             
-              <img src="js.png
-            " alt="javascript" className="w-full" />
+              <img src={JSLOGO } alt="javascript" className="w-full" />
               
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>JavaScript</p>
@@ -55,8 +60,7 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
              
-              <img src="tailwind.png
-            " alt="tailwind" className="w-full" />
+              <img src={TAILWIND} alt="tailwind" className="w-full" />
            
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>Tailwind</p>
@@ -65,8 +69,8 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
              
-              <img src="bootstrap.png
-            " alt="bootstrap" className="w-full" />
+              <img src={BOOTSTRAP}
+             alt="bootstrap" className="w-full" />
              
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>Bootstrap</p>
@@ -75,8 +79,7 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded  border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
               
-              <img src="css.png
-            " alt="css" className="w-full" />
+              <img src={CSSLOGO } alt="css" className="w-full" />
             
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>CSS</p>
@@ -85,8 +88,7 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
               
-              <img src="HTML.png
-            " alt="html" className="w-full" />
+              <img src={HTML} alt="html" className="w-full" />
              
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>HTML</p>
@@ -95,8 +97,7 @@ const Skills = () => {
             </div>
             <div className=" text-center rounded border-sky-700 border-2 hover:scale-105 duration-300 w-[160px]">
             
-              <img src="git.png
-            " alt="git/github" className="w-full" />
+              <img src={GIT} alt="git/github" className="w-full" />
            
              <div className="bg-sky-700 py-3">
              <p className=' text-xl font-semibold '>Git/GitHub</p>

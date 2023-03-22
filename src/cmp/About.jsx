@@ -10,16 +10,16 @@ const About = () => {
             
            
           </div>
-          <div className=""></div>
+         
         </div>
         <div className=" max-w-[1100px] w-full grid sm:grid-cols-2 gap-8 px-10 md:px-24 lg:px-24">
-          <div className="sm:text-right text-3xl font-bold">
+          <div className="sm:text-right text-3xl font-bold mt-4">
             <p className="text-sky-400">
               Hello, I'm Jyoti Dahal. Nice to meet you. Please take a look
               around.
             </p>
           </div>
-          <div className="pb-10">
+          <div className="py-4">
             <p>
               Hello, my name is Jyoti Dahal.I am a self-taught front-end
               developer. I primarily focus on writing clean, elegant, and

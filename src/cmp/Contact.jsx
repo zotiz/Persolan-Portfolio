@@ -1,6 +1,6 @@
 const Contact= () => {
   return(
-    <div name = 'contact' className="py-20 w-full text-white bg-[#0a192f] ">
+    <div name = 'contact' className="py-20 w-full text-white bg-[#172233] ">
       <div className='max-w-[1100px] mx-auto pb-10 flex flex-col justify-center h-full w-full px-10 md:px-24  lg:px-24'>
       
         <div className="my-8">

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import PORTFOLIO from '../images/p11.png'
+import PROJECT11 from '../images/p1.jpg'
 const Work = ()=>{
   return(
     <div name= 'work' className='w-full py-20 bg-[#172233]  text-white '>
@@ -10,7 +11,7 @@ const Work = ()=>{
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 '>
-          <div style={{backgroundImage:`url(/p11.png)`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
+          <div style={{backgroundImage:`url(${PORTFOLIO})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
@@ -26,7 +27,7 @@ const Work = ()=>{
               </div>
             </div>
           </div>
-          <div style={{backgroundImage:`url(/p1.jpg)`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
+          <div style={{backgroundImage:`url(${PROJECT11})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
@@ -42,7 +43,7 @@ const Work = ()=>{
               </div>
             </div>
           </div>
-          <div style={{backgroundImage:`url(/p1.jpg)`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
+          <div style={{backgroundImage:`url(${PROJECT11})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
@@ -58,7 +59,7 @@ const Work = ()=>{
               </div>
             </div>
           </div>
-          <div style={{backgroundImage:`url(/p1.jpg)`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
+          <div style={{backgroundImage:`url(${PROJECT11})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
@@ -76,7 +77,7 @@ const Work = ()=>{
 
             
           </div>
-          <div style={{backgroundImage:`url(/p1.jpg)`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
+          <div style={{backgroundImage:`url(${PROJECT11})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
@@ -93,7 +94,7 @@ const Work = ()=>{
             </div>
             
           </div>
-          <div style={{backgroundImage:`url(/p1.jpg)`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
+          <div style={{backgroundImage:`url(${PROJECT11})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto items-center content-div '>
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
