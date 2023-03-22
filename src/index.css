@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+
+
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  .logoImage {
+    @apply font-[Taprom];
+    @apply cursor-pointer
+  }
+  .ttt{
+    @apply font-[Taprom]
+  }
+  li {
+    @apply px-0;
+    @apply cursor-pointer
+  }
+}
+ 
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+
+}
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112,157,255,0.7),
+      hsla(242,74%, 61%, 0.7)
+  )!important;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, rgb(56 189 248) 5%, #1e62d0 100%);
+	background-color:rgb(56 189 248);
+	border-radius:6px;
+	border:1px solid rgb(56 189 248);
+
+	cursor:pointer;
+	color:#ffffff;
+	
+	padding:10px 20px;
+	
+	text-shadow:0px 1px 0px #1570cd;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e86d0 5%, rgb(56 189 248) 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
